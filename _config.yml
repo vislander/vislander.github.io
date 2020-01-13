@@ -107,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "V1"
+  name             : "Visionary + Island"
   avatar           : "/assets/images/bio.jpg"
-  bio              : "vislander: alpha-1"
+  bio              : "vislander: omega-1"
   location         : "Somewhere"
-  email            :
+  email            : "visland.omega@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
