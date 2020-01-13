@@ -12,22 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Visland"
 title_separator          : "-"
-subtitle                 : "idea matters"
-name                     : "alpha-1"
-description              : "Value, Variety, Victory"
+subtitle                 : "prototype"
+name                     : "A1"
+description              : "Visland, Values, Variety"
 url                      : "https://vislander.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "vislander/vislander.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : ""/assets/images/logo-nightwatch.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 remote_theme : mmistakes/minimal-mistakes
 comments:
@@ -40,7 +40,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : 5
-    colorscheme          : "light"
+    colorscheme          : "contrast"
   utterances:
     theme                : "github-light" #(default), "github-dark"
     issue_term           : # "pathname" (default)
@@ -108,11 +108,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "alpha-1"
+  name             : "A1"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "over the rainbow"
-  email            :
+  bio              : "Unknown"
+  location         : "Over the rainbow"
+  email            : ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -291,6 +291,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
