@@ -2,11 +2,13 @@
 main:
   - title: "Visland에 대하여"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "뉴스요약"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "시사/경제"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "과학/기술"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "기타"
+  - title: "TIL"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "유용한 사이트"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
