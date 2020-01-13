@@ -16,20 +16,19 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Visland"
+title                    : "Site Title"
 title_separator          : "-"
-subtitle                 : "prototype"
-name                     : "A1"
-description              : "Visland, Values, Variety"
-url                      : "https://vislander.github.io"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "Your Name"
+description              : "An amazing website."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "vislander/vislander.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : ""/assets/images/logo-nightwatch.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true
+# breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-remote_theme : mmistakes/minimal-mistakes
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -39,10 +38,10 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : 5
-    colorscheme          : "contrast"
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "github-light" #(default), "github-dark"
+    theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
@@ -108,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "A1"
-  avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Unknown"
-  location         : "Over the rainbow"
-  email            : ""
+  name             : "Your Name"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -283,7 +282,7 @@ compress_html:
 
 # Defaults
 defaults:
-  #_posts
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -291,6 +290,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: # true
       share: true
       related: true
