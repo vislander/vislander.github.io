@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "plum" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Visland"
 title_separator          : "-"
-subtitle                 : "Vislanders value ideas"
-name                     : "Alpha"
+subtitle                 : "idea matters"
+name                     : "alpha-1"
 description              : "Value, Variety, Victory"
 url                      : "https://vislander.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -42,7 +42,7 @@ comments:
     num_posts            : 5
     colorscheme          : "light"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
+    theme                : "github-light" #(default), "github-dark"
     issue_term           : # "pathname" (default)
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
