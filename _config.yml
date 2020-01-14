@@ -20,7 +20,7 @@ title                    : "VISLAND"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "alpha-1"
-description              : ""
+description              : "visland prototype"
 url                      : "https://vislander.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
