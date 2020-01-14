@@ -3,7 +3,7 @@ main:
   - title: "Visland에 대하여"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "뉴스요약"
-    url: https://vislander.github.io/vislander/news/
+    url: https://vislander.github.io/news/
   - title: "시사/경제"
     url: https://vislander.github.io/vislander/econ/
   - title: "과학/기술/경영"
